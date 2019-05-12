@@ -949,20 +949,7 @@
 				background-color: darken(_palette(accent6, bg), 5) !important;
 			}
 		}
-		&.primary2 {
-			background-color: _palette(accent6, bg);
-			box-shadow: none !important;
-			color: _palette(accent6, fg-bold) !important;
-
-			&:hover {
-				background-color: lighten(_palette(accent6, bg), 5) !important;
-			}
-
-			&:active {
-				background-color: darken(_palette(accent6, bg), 5) !important;
-			}
-		}
-
+	
 		&.disabled,
 		&:disabled {
 			@include vendor('pointer-events', 'none');
