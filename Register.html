@@ -10,17 +10,19 @@
       #login-form{
          width:450px;
 
+         text-align: center;
+
          margin:80px auto;
 
          border: 1px solid gray;
 
          border-radius: 5px;
 
-         padding: 15px;
+         padding: 20px;
        }
     </style>
   </head>
-  <body class="is-preload">
+  <body class="is-preload" >
 
     <!-- Menu Toggle -->
     <header id="header" class="alt">
@@ -35,7 +37,7 @@
                 <li><a href="registAndSearch.html">우리동네 고양이 등록 / 검색</a></li>
                 <li><a href="boardElement.html">게시판</a></li>
                 <li><a href="Register.html">회원가입</a></li>
-                <li><a href="#">로그인</a></li>
+                <li><a href="Login.html">로그인</a></li>
               </ul>
             </div>
           </li>
@@ -45,10 +47,11 @@
 
 
     <!-- Main -->
-    <section">
+    <section>
       <div class="inner">
         <br>
-        <h2 style="color:white; text-align:center; font-size:40px ; color:yellowgreen">회원가입</h2>
+        <h2 style="color:white; text-align:center; font-size:40px ; color:yellowgreen">회원가입 </br></h2>
+
 
         <form id="login-form" action="#" method="GET"> <!--여기 action 부분에 내용을 전송받을 url을 넣어줘야 함.-->
           <label class="legend">아이디</label>         <!--action 에 php파일로 하면 php파일에서 #_REQUEST['user-id']라고 선언하면 user-id라는 변수로 해당 값이 넘어옴-->
