@@ -1899,8 +1899,8 @@ input, select, textarea {
 		display: block;
 		float: left;
 		margin-right: -2em;
-		opacity: 0;
-		width: 1em;
+		opacity: 1;
+		width: 2em;
 		z-index: -1;
 	}
 
